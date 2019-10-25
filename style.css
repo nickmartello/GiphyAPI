@@ -1,0 +1,26 @@
+body {
+    background-image: url("https://www.sccpre.cat/mypng/detail/288-2887034_space-jam-logo-png.png");
+    background-color: #cccccc;
+    background-size: 100%;
+   }
+ 
+h1 {
+    font-size: 100px;
+    border: white;
+    color: rgb(108, 172, 153);
+    background: -webkit-linear-gradient( white, green, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 4px 4px;
+    
+  
+}
+#gif-buttons {
+    text-align: center;
+}
+
+#gif-form {
+    text-align: center;
+}

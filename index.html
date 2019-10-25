@@ -9,8 +9,11 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+<link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="shortcut icon" type="image/png"
+        href="https://superdevresources.com/wp-content/uploads/2017/07/pow-300x300.png">
     <title>this is giphy</title>
 
 
@@ -18,17 +21,19 @@
 
 <body>
 
+    <h1>Welcome To The</h1>
+
 
     <div id="gif-buttons"></div>
 
     <form id="gif-form">
-        <label for="gif-input">Add a New Gif!</label>
-        <input type="text" id="gif-input"> <br>
-        <input id="add-gif" type="submit" value="submit">
+        <!-- <label for="gif-input"></label> -->
+        <input type="text" id="gif-input" placeholder="YOUR GIF HERE" required>
+        <input id="add-gif" type="submit" value="submit" required>
     </form>
 
     <div id="gif-info"></div>
-    <div class="gifs"></div>
+    <span class="gifs"></span>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="giphy.js"></script>

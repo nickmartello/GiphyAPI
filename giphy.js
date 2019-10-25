@@ -1,4 +1,4 @@
-let topics = ["man", "bear", "pig"];
+let topics = ["Bugs Bunny", "Michael Jordan", "Daffy Duck"];
 
 function renderButtons() {
     $("#gif-buttons").empty();
@@ -18,22 +18,19 @@ function renderButtons() {
 
 $("#add-gif").on("click", function (event) {
     event.preventDefault();
-
-
     let gifAct = $("#gif-input").val().trim();
     topics.push(gifAct);
     renderButtons();
-    $("#gif-input").val("");
+    $("#gif-input").val();
 });
-
+    
 $("add-gif").on("submit", function (event) {
     event.preventDefault();
     let topic = $("#gif-input").val().trim();
     topics.push(topic);
     renderButtons();
-    $("#gif-input").val("");
+    $("#gif-input").val();
 });
-
 
 renderButtons();
 
@@ -78,3 +75,5 @@ $("#gif-buttons").on("click", "button", function () {
     });
 
 });
+
+
